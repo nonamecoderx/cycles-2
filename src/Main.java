@@ -1,14 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int salary = 15000;
-        int total = 0;
-        int i = 0;
-        while ( total < 2459000 ) {
-            total = total + total / 100;
-            total = total + salary;
-            //System.out.println("Месяц " + i + " сумма - " + total);
-            i =i+1;
-            System.out.println("Месяц " + i + " сумма накоплений " + total);
+        int dayX = 79;
+        int yearStart = 2022;
+        int yearStop = yearStart - 200;
+        int yearNext = yearStart + 100;
+        int year = 0;
+        while (year <= yearNext) {
+            year++;
+            if (year == dayX) {
+                if (year > yearStop)
+                    System.out.println(year);
+                dayX = dayX + 79;
+            }
         }
     }
 }
