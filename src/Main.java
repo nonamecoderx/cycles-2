@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int salary = 15000;
-        int total = 0;
-        int i = 0;
-        while ( total < 2459000 ) {
-            total = total + total / 100;
-            total = total + salary;
-            //System.out.println("Месяц " + i + " сумма - " + total);
-            i =i+1;
-            System.out.println("Месяц " + i + " сумма накоплений " + total);
+        int a = 1;
+        int b = 10;
+        while (a <= 10) {
+            System.out.print(a + " ");
+            a = a + 1;
+        }
+        System.out.println("");
+        for (b =10; b>0; b--) {
+            System.out.print(b + " ");
         }
     }
 }
