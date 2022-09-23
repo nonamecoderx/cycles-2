@@ -6,9 +6,9 @@ public class Main {
             System.out.print(a + " ");
             a = a + 1;
         }
-        while (b >= 1) {
+        System.out.println("");
+        for (b =10; b>0; b--) {
             System.out.print(b + " ");
-            b = b - 1;
         }
     }
 }
